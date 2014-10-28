@@ -1,27 +1,22 @@
 //
-//  TestViewController.m
+//  newGameView.m
 //  StoryX
 //
-//  Created by Max Xing on 10/25/14.
+//  Created by Max Xing on 10/28/14.
 //  Copyright (c) 2014 WSH. All rights reserved.
 //
 
-#import "TestViewController.h"
+#import "newGameView.h"
 
-@interface TestViewController ()
+@interface newGameView ()
 
 @end
 
-@implementation TestViewController
+@implementation newGameView
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-
-}
-- (IBAction)onClick:(id)sender {
-    UIButton *button = (UIButton *)sender;
-    [button setTitle:@"hello" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning {
