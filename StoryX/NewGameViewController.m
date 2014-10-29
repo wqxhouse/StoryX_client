@@ -1,22 +1,23 @@
 //
-//  HistoryView.m
+//  newGameView.m
 //  StoryX
 //
 //  Created by Max Xing on 10/28/14.
 //  Copyright (c) 2014 WSH. All rights reserved.
 //
 
-#import "HistoryView.h"
+#import "NewGameViewController.h"
 
-@interface HistoryView ()
+@interface NewGameViewController ()
 
 @end
 
-@implementation HistoryView
+@implementation NewGameViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"asfd");
 }
 
 - (void)didReceiveMemoryWarning {

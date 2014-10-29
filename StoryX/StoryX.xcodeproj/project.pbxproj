@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38AF92DD1A008F7200E6295A /* ClassPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF92DA1A008F7200E6295A /* ClassPair.m */; };
-		38AF92DE1A008F7200E6295A /* IOCan.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF92DC1A008F7200E6295A /* IOCan.m */; };
-		38AF92E71A00908800E6295A /* UrlPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF92E61A00908800E6295A /* UrlPath.m */; };
-		38AF92EB1A00912600E6295A /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF92EA1A00912600E6295A /* Repo.m */; };
-		38AF92EE1A00913500E6295A /* MockRepo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AF92ED1A00913500E6295A /* MockRepo.m */; };
 		38FD048419FCB2B800801C6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD048319FCB2B800801C6A /* main.m */; };
 		38FD048719FCB2B800801C6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD048619FCB2B800801C6A /* AppDelegate.m */; };
 		38FD048A19FCB2B800801C6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD048919FCB2B800801C6A /* ViewController.m */; };
@@ -19,8 +14,6 @@
 		38FD048F19FCB2B800801C6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38FD048E19FCB2B800801C6A /* Images.xcassets */; };
 		38FD049219FCB2B800801C6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38FD049019FCB2B800801C6A /* LaunchScreen.xib */; };
 		38FD049E19FCB2B800801C6A /* StoryXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38FD049D19FCB2B800801C6A /* StoryXTests.m */; };
-		5036E0891A00430D000C33A3 /* NewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036E0881A00430D000C33A3 /* NewGameViewController.m */; };
-		5036E0BE1A0047F2000C33A3 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5036E0BD1A0047F2000C33A3 /* HistoryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		38AF92D91A008F7200E6295A /* ClassPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClassPair.h; path = StoryX/ClassPair.h; sourceTree = "<group>"; };
-		38AF92DA1A008F7200E6295A /* ClassPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClassPair.m; path = StoryX/ClassPair.m; sourceTree = "<group>"; };
-		38AF92DB1A008F7200E6295A /* IOCan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOCan.h; path = StoryX/IOCan.h; sourceTree = "<group>"; };
-		38AF92DC1A008F7200E6295A /* IOCan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IOCan.m; path = StoryX/IOCan.m; sourceTree = "<group>"; };
-		38AF92E51A00908800E6295A /* UrlPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlPath.h; sourceTree = "<group>"; };
-		38AF92E61A00908800E6295A /* UrlPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlPath.m; sourceTree = "<group>"; };
-		38AF92E81A0090AF00E6295A /* IRepo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRepo.h; sourceTree = "<group>"; };
-		38AF92E91A00912600E6295A /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
-		38AF92EA1A00912600E6295A /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
-		38AF92EC1A00913500E6295A /* MockRepo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MockRepo.h; sourceTree = "<group>"; };
-		38AF92ED1A00913500E6295A /* MockRepo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MockRepo.m; sourceTree = "<group>"; };
 		38FD047E19FCB2B800801C6A /* StoryX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FD048219FCB2B800801C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38FD048319FCB2B800801C6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,10 +40,6 @@
 		38FD049719FCB2B800801C6A /* StoryXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FD049C19FCB2B800801C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38FD049D19FCB2B800801C6A /* StoryXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryXTests.m; sourceTree = "<group>"; };
-		5036E0871A00430D000C33A3 /* NewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewGameViewController.h; sourceTree = "<group>"; };
-		5036E0881A00430D000C33A3 /* NewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewGameViewController.m; sourceTree = "<group>"; };
-		5036E0BC1A0047F2000C33A3 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
-		5036E0BD1A0047F2000C33A3 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,79 +60,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		38AF92D81A008F4300E6295A /* IOContainer */ = {
-			isa = PBXGroup;
-			children = (
-				38AF92D91A008F7200E6295A /* ClassPair.h */,
-				38AF92DA1A008F7200E6295A /* ClassPair.m */,
-				38AF92DB1A008F7200E6295A /* IOCan.h */,
-				38AF92DC1A008F7200E6295A /* IOCan.m */,
-			);
-			name = IOContainer;
-			sourceTree = "<group>";
-		};
-		38AF92DF1A008F8F00E6295A /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				38AF92E21A00900600E6295A /* NewGameScreen */,
-				38AF92E11A008FCF00E6295A /* HistoryScreen */,
-				38AF92E01A008FB100E6295A /* MainScreen */,
-			);
-			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		38AF92E01A008FB100E6295A /* MainScreen */ = {
-			isa = PBXGroup;
-			children = (
-				38FD048819FCB2B800801C6A /* ViewController.h */,
-				38FD048919FCB2B800801C6A /* ViewController.m */,
-			);
-			name = MainScreen;
-			sourceTree = "<group>";
-		};
-		38AF92E11A008FCF00E6295A /* HistoryScreen */ = {
-			isa = PBXGroup;
-			children = (
-				5036E0BC1A0047F2000C33A3 /* HistoryViewController.h */,
-				5036E0BD1A0047F2000C33A3 /* HistoryViewController.m */,
-			);
-			name = HistoryScreen;
-			sourceTree = "<group>";
-		};
-		38AF92E21A00900600E6295A /* NewGameScreen */ = {
-			isa = PBXGroup;
-			children = (
-				5036E0871A00430D000C33A3 /* NewGameViewController.h */,
-				5036E0881A00430D000C33A3 /* NewGameViewController.m */,
-			);
-			name = NewGameScreen;
-			sourceTree = "<group>";
-		};
-		38AF92E31A00906300E6295A /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				38AF92E81A0090AF00E6295A /* IRepo.h */,
-				38AF92E91A00912600E6295A /* Repo.h */,
-				38AF92EA1A00912600E6295A /* Repo.m */,
-				38AF92EC1A00913500E6295A /* MockRepo.h */,
-				38AF92ED1A00913500E6295A /* MockRepo.m */,
-			);
-			name = Services;
-			sourceTree = "<group>";
-		};
-		38AF92E41A00906B00E6295A /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-				38AF92E51A00908800E6295A /* UrlPath.h */,
-				38AF92E61A00908800E6295A /* UrlPath.m */,
-			);
-			name = DAO;
-			sourceTree = "<group>";
-		};
 		38FD047519FCB2B800801C6A = {
 			isa = PBXGroup;
 			children = (
-				38AF92D81A008F4300E6295A /* IOContainer */,
 				38FD048019FCB2B800801C6A /* StoryX */,
 				38FD049A19FCB2B800801C6A /* StoryXTests */,
 				38FD047F19FCB2B800801C6A /* Products */,
@@ -173,9 +81,13 @@
 		38FD048019FCB2B800801C6A /* StoryX */ = {
 			isa = PBXGroup;
 			children = (
-				38AF92E41A00906B00E6295A /* DAO */,
-				38AF92E31A00906300E6295A /* Services */,
-				38AF92DF1A008F8F00E6295A /* ViewControllers */,
+				38FD048519FCB2B800801C6A /* AppDelegate.h */,
+				38FD048619FCB2B800801C6A /* AppDelegate.m */,
+				38FD048819FCB2B800801C6A /* ViewController.h */,
+				38FD048919FCB2B800801C6A /* ViewController.m */,
+				38FD048B19FCB2B800801C6A /* Main.storyboard */,
+				38FD048E19FCB2B800801C6A /* Images.xcassets */,
+				38FD049019FCB2B800801C6A /* LaunchScreen.xib */,
 				38FD048119FCB2B800801C6A /* Supporting Files */,
 			);
 			path = StoryX;
@@ -184,11 +96,6 @@
 		38FD048119FCB2B800801C6A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				38FD048B19FCB2B800801C6A /* Main.storyboard */,
-				38FD048E19FCB2B800801C6A /* Images.xcassets */,
-				38FD049019FCB2B800801C6A /* LaunchScreen.xib */,
-				38FD048519FCB2B800801C6A /* AppDelegate.h */,
-				38FD048619FCB2B800801C6A /* AppDelegate.m */,
 				38FD048219FCB2B800801C6A /* Info.plist */,
 				38FD048319FCB2B800801C6A /* main.m */,
 			);
@@ -312,16 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38AF92DD1A008F7200E6295A /* ClassPair.m in Sources */,
-				38AF92EE1A00913500E6295A /* MockRepo.m in Sources */,
 				38FD048A19FCB2B800801C6A /* ViewController.m in Sources */,
 				38FD048719FCB2B800801C6A /* AppDelegate.m in Sources */,
-				38AF92EB1A00912600E6295A /* Repo.m in Sources */,
 				38FD048419FCB2B800801C6A /* main.m in Sources */,
-				38AF92E71A00908800E6295A /* UrlPath.m in Sources */,
-				38AF92DE1A008F7200E6295A /* IOCan.m in Sources */,
-				5036E0BE1A0047F2000C33A3 /* HistoryViewController.m in Sources */,
-				5036E0891A00430D000C33A3 /* NewGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,7 +412,6 @@
 				38FD04A319FCB2B800801C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		38FD04A419FCB2B800801C6A /* Build configuration list for PBXNativeTarget "StoryXTests" */ = {
 			isa = XCConfigurationList;
@@ -521,7 +420,6 @@
 				38FD04A619FCB2B800801C6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

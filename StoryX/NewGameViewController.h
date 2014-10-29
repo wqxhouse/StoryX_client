@@ -1,5 +1,5 @@
 //
-//  HistoryView.h
+//  newGameView.h
 //  StoryX
 //
 //  Created by Max Xing on 10/28/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HistoryView : UIViewController
+@interface NewGameViewController : UIViewController
 
 @end

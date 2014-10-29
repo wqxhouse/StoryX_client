@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1BS-Lu-3aT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1BS-Lu-3aT">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -7,7 +7,7 @@
         <!--NewGame-->
         <scene sceneID="CO6-Vp-cE0">
             <objects>
-                <viewController id="Sxf-pQ-a4p" customClass="newGameView" sceneMemberID="viewController">
+                <viewController id="Sxf-pQ-a4p" customClass="NewGameViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Rvn-b0-pYf"/>
                         <viewControllerLayoutGuide type="bottom" id="vXx-fi-tFK"/>
@@ -27,7 +27,7 @@
         <!--History-->
         <scene sceneID="Dlf-AG-T1s">
             <objects>
-                <viewController id="eFq-DQ-SFU" customClass="HistoryView" sceneMemberID="viewController">
+                <viewController id="eFq-DQ-SFU" customClass="HistoryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NFz-1o-7CO"/>
                         <viewControllerLayoutGuide type="bottom" id="Er6-LJ-HlP"/>
