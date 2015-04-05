@@ -11,5 +11,5 @@
 @interface UrlPath : NSObject
 
 + (NSString *)getHelloworldStr: (NSString *)str;
-
++ (NSString *) sendString: (NSString *)str;
 @end

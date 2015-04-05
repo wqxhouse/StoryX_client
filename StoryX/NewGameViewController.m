@@ -1,5 +1,5 @@
 //
-//  newGameView.m
+//  NewGameViewController.m
 //  StoryX
 //
 //  Created by Max Xing on 10/28/14.
@@ -7,17 +7,37 @@
 //
 
 #import "NewGameViewController.h"
+#import "UrlPath.h"
+#import "DAO.h"
 
 @interface NewGameViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
 @implementation NewGameViewController
+- (IBAction)sendButton:(id)sender {
+
+    [DAO getRequest:[UrlPath sendString: self.textField.text] callback:^(NSDictionary *dc, NSError *error) {
+
+        if(error == nil){
+            NSLog(@"no error");
+          //  dc[@"send"] = self.textField.text;
+        }
+
+        else{
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error" message:@"send failed" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
+            [alert show];
+        }
+
+
+
+    }];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    NSLog(@"asfd");
 }
 
 - (void)didReceiveMemoryWarning {

@@ -41,21 +41,22 @@ static BOOL alertShown = false;
 
 + (void)initialize
 {
-    _cacheThreadToken = dispatch_queue_create(kCacheThreadName, NULL);
+//    _cacheThreadToken = dispatch_queue_create(kCacheThreadName, NULL);
+//    _manager = [AFHTTPRequestOperationManager manager];
+//    _jsonReqManager = [AFHTTPRequestOperationManager manager];
+//    _jsonReqManager.requestSerializer = [AFJSONRequestSerializer serializer];
+//    AFSecurityPolicy *secure = [self securityPolicy];
+//    if(secure == nil)
+//    {
+//        _manager = nil;
+//        _jsonReqManager = nil;
+//    }
+//    else
+//    {
+//        [_manager setSecurityPolicy:[self securityPolicy]];
+//        [_jsonReqManager setSecurityPolicy:[self securityPolicy]];
+//    }
     _manager = [AFHTTPRequestOperationManager manager];
-    _jsonReqManager = [AFHTTPRequestOperationManager manager];
-    _jsonReqManager.requestSerializer = [AFJSONRequestSerializer serializer];
-    AFSecurityPolicy *secure = [self securityPolicy];
-    if(secure == nil)
-    {
-        _manager = nil;
-        _jsonReqManager = nil;
-    }
-    else
-    {
-        [_manager setSecurityPolicy:[self securityPolicy]];
-        [_jsonReqManager setSecurityPolicy:[self securityPolicy]];
-    }
 }
 
 + (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
@@ -81,6 +82,7 @@ static BOOL alertShown = false;
 //                  callback(responseObject, nil);
 //              }
               NSLog(@"get");
+              callback(responseObject, nil);
           }
           failure:^(AFHTTPRequestOperation *operation, NSError *error) {
               [self handleError: error];
