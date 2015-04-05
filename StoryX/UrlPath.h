@@ -10,4 +10,6 @@
 
 @interface UrlPath : NSObject
 
++ (NSString *)getHelloworldStr: (NSString *)str;
+
 @end

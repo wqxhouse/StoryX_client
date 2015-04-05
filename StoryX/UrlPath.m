@@ -7,6 +7,13 @@
 //
 
 #import "UrlPath.h"
+
+NSString *const _baseUrl = @"127.0.0.1:12345";
 @implementation UrlPath
+
++ (NSString *)getHelloworldStr: (NSString *)str
+{
+    return [NSString stringWithFormat:@"%@/%@", _baseUrl, str];
+}
 
 @end
